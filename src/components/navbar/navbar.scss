@@ -1,0 +1,164 @@
+.navbar {
+  width: 100%;
+  // padding: 20px;
+  display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // justify-content:center;
+
+  .logo {
+    width:20%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 10px lightgrey;
+    // gap: 10px;
+
+    .spriha {
+      height: 100%;
+      width: 100%;
+      // border-radius: 50%;
+      // background-color: #aed2ff;
+    }
+
+  }
+
+  .centerinfo{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .sprihatitle{
+      width:100%;
+      height:70%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size:60px;
+      color:black;
+    }
+    .teaminfo{
+      width:100%;
+      height:30%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      // flex-direction: row;
+      .rectangle{
+        width:90%;
+        height:80%;
+        border-radius: 10px;
+        background-color: lightgrey;
+        display: flex;
+        .teamId{
+          width:30%;
+          height:100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .teamicon{
+            width: 25%;
+            height: 75%;
+          }
+          .teamid{
+            color:black;
+            margin:5%;
+            // font-size: 100%;
+          }
+        }
+        .missiontime{
+          width:40%;
+          height:100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .missiontimeicon{
+            width: 20%;
+            height: 75%;
+            border-radius:10%;
+          }
+          .teammissiontime{
+            color:black;
+            margin:5%;
+          }
+        }
+        .missionstatus{
+          width:30%;
+          height:100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .missionstatusicon{
+            width: 22%;
+            height: 75%;
+            border-radius:10%;
+          }
+          .teammissionstatus{
+            color:black;
+            margin:5%;
+          }
+        }
+      }
+    }
+  }
+
+  .icons {
+    width:20%;
+    // display: flex;
+    // align-items: center;
+    // gap: 10px;
+    .flag{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60%;
+      img {
+        width: 90%;
+        height:80%;
+        // border-radius: 50%;
+        object-fit: cover;
+        }
+      }
+    .missiontimebuttons{
+      height:42%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap:10px;
+      .restartbutton{
+        width:30%;
+        height:60%;
+        .restart{
+          height:100%;
+          width:100%;
+        }
+      }
+      .restartbutton:hover{
+        cursor:pointer;
+      }
+      .startbutton{
+        width:30%;
+        height:60%;
+        .start{
+          height:100%;
+          width:100%;
+        }
+      }
+      .startbutton:hover{
+        cursor:pointer;
+      }
+      .stopbutton{
+        width:30%;
+        height:60%;
+        .stop{
+          height:100%;
+          width:100%;
+        }
+      }
+      .stopbutton:hover{
+        cursor:pointer;
+      }
+    }
+  }
+}

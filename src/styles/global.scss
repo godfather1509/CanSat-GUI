@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  font-family: "Inter", sans-serif;
+  // background-color: #213555;
+  color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+}
+
+.menuContainer {
+  width: 20%;
+  // padding: 5px 20px;
+  // border-right: 2px solid #E5D283;
+}
+
+.contentContainer {
+  padding: 5px 20px;
+  width: 80%;
+}
