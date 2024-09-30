@@ -9,7 +9,8 @@ import Menu from "./components/menu/Menu"
 import Footer from "./components/footer/Footer"
 import Home from "./pages/home/Home";
 import Graphs from "./pages/graphs/Graphs";
-import Live from "./pages/live/Live"
+import Live from "./pages/live/Live";
+import Maps from "./pages/maps/Maps";
 import "./styles/global.scss"
 
 function App() {
@@ -62,6 +63,10 @@ function App() {
         {
           path: "/graphs",
           element:<Graphs />,
+        },
+        {
+          path: "/maps",
+          element:<Maps />,
         },
         {
           path: "/live",

@@ -7,7 +7,7 @@ export const menu = [
   },
   {
     id: 2,
-    url: "/",
+    url: "/maps",
     title: "Maps",
     icon: "maps.svg",
   },
